@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+p{
+    text-align:center;
+    font-weight: 600;
+    font-size: x-large;
+}
+.parent{
+    height:370px;
+    margin: auto;
+    width:370px;
+    /* background-color:white; */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.btn{
+    height:150px;
+    width:150px;
+    border-radius:20%;
+    
+    border:7px solid black;
+}
+
+.red{
+  background-color:red;
+}
+.blue{
+    background-color:skyblue;
+}
+.green{
+    background-color:green;
+}
+.yellow{
+    background-color:yellow;
+}
+.flash{
+    background-color:white;
+}
+
+.over{
+    background-color:maroon;
+}
